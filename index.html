@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="inputfeet" type="number" placeholder="Feet"
+       oninput="feetToMeters(this.value)"
+       onchange="feetToMeters(this.value)">
+</p>
+<p>Meters: <span id="outputmeters"></span></p>
+<input id="inputmeters" type="number" placeholder="Meters"
+       oninput="metersToFeet(this.value)"
+       onchange="metersToFeet(this.value)">
+</p>
+<p>Feet: <span id="outputfeet"></span></p>
+<script src="chuyenDoi.js"></script>
+</body>
+</html>
